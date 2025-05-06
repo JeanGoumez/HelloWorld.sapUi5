@@ -1,0 +1,16 @@
+<mvc:View controllerName="sap.btp.helloworld2ui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+        <VBox class="sapUiLargeMargin" id="VBoxID">
+        <Label id="nameLabel" text="Escribiendo algo">
+        
+        </Label>
+        <Input id="nameInput" placeholder="Nombres"> </Input>
+        <Button id="nameButton" text="Saludo" press="Saludar" ></Button>
+        </VBox>
+
+    </content>
+    </Page>
+</mvc:View>
